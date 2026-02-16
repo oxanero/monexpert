@@ -173,7 +173,7 @@ APP_INITIALIZER = CustomAppInitializer
 
 # Enable template processing for Handlebars charts
 ENABLE_TEMPLATE_PROCESSING = True
-# DISABLE HTML sanitization (CSS/JS için gerekli)
+# DISABLE HTML sanitization (CSS/JS için gerekli) ? Bilemedim
 HTML_SANITIZATION = False
 # Extended schema (güvenlik için - sanitization tutmak istersen)
 HTML_SANITIZATION_SCHEMA_EXTENSIONS = {
@@ -192,7 +192,7 @@ TALISMAN_CONFIG = {
     'img_src': ("'self'", "data:", "https:"),
     'font_src': ("'self'",),
 }
-# Flask-Limiter devre dışı (development)
+# Flask-Limiter devre dışı (development) 
 RATELIMIT_ENABLED = False
 
 FEATURE_FLAGS = {
